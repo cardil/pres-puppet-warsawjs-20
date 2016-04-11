@@ -1,0 +1,8 @@
+.two-columns li:nth-child(even) {
+  width: 40%;
+  float: right;
+}
+.two-columns li:nth-child(odd) {
+  width: 60%;
+  float: left;
+}

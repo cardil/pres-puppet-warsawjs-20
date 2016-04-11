@@ -1,11 +1,6 @@
-# WarsawJS Slides: Template
+# Puppetize JS on WarsawJS 20
 
 ![Logo](/pictures/logo/warsawjs-logo-light.png)
-
----
-
-JavaScript Yellow Color: `#f0db4f`
-WarsawJS Red Color: `#f7302f`
 
 ---
 
