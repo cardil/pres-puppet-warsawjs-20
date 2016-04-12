@@ -43,7 +43,7 @@
             <h2>2016-04-13</h2>
 
             <!-- 5. Contact the speaker -->
-            <h2><a href="http://twitter.com/ksuszynski">@ksuszynski</a> <a href="http://twitter.com/Cosaquee">@Cosaquee</a></h2>
+            <h2><a href="http://twitter.com/ksuszynski">@ksuszynski</a> <a href="http://twitter.com/cosaquee">@cosaquee</a></h2>
         </div>
     </section>
 
@@ -127,12 +127,12 @@
 
     <section class="slide prism">
       <h2>Puppet - prosty, deklaratywny język</h2>
-      <pre style="font-size: 35px" class="language-javascript line-numbers"><code>package { 'postgresql':
+      <pre style="font-size: 35px" class="language-javascript line-numbers"><code>package { 'mongodb':
   ensure => 'installed',
 }
-service { 'postgresql':
+service { 'mongodb':
   ensure  => 'running',
-  require => Package['postgresql'],
+  require => Package['mongodb'],
 }</code>
       </pre>
       <p>
@@ -169,7 +169,7 @@ service { 'postgresql':
       <ol>
         <li>Przygotowanie środowisk produkcyjnych - dla backend JS lub frontend w izolowanym środowisku</li>
         <li>Przygotowanie środowisk testowych i deweloperskich</li>
-        <li>Wspólpraca z innymi działami</li>
+        <li>Współpraca z innymi działami</li>
         <li>Symulowanie backendu i/lub provisionowanie środowisk</li>
       </ol>
     </section>
@@ -180,6 +180,17 @@ service { 'postgresql':
 
     <section class="slide">
       <h2 class="shout grow">Puppet ♥ Javascript</h2>
+    </section>
+
+    <section class="slide">
+      <h2>Linki</h2>
+      <ul>
+        <li><a href="https://docs.puppet.com/puppet/">https://docs.puppet.com/puppet/</a></li>
+        <li><a href="https://docs.puppet.com/guides/puppetlabs_package_repositories.html">https://docs.puppet.com/guides/puppetlabs_package_repositories.html</a></li>
+        <li><a href="https://gist.github.com/Cosaquee/1d347a8414c7b3e236c667e916d608c8">Demo 1 - Gist: Basics</a></li>
+        <li><a href="https://gist.github.com/Cosaquee/5f3950ed6d97f590fb6408d06ca7033c">Demo 2 - Gist: Instalacja Puppet</a></li>
+        <li><a href="https://gist.github.com/Cosaquee/f221ef376bc3e605d28c3fa854fbffd1">Demo 3 - Gist: Prepare JS environment</a></li>
+      </ul>
     </section>
 
     <section class="slide black">
