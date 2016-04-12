@@ -1,6 +1,7 @@
-# Puppetize JS on WarsawJS 20
+# "Puppetize JS" on WarsawJS #20
 
-![Logo](/pictures/logo/warsawjs-logo-light.png)
+![WarsawJS](/pictures/logo/warsawjs-logo-light.png)
+![Puppet](/pictures/logo/Puppet-Logo-Amber-Black-lg.png)
 
 ---
 
